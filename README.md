@@ -1,4 +1,4 @@
-# Spring Boot 3.0 Security with JWT Implementation
+# Spring Boot Security with JWT Implementation
 The Secure Movie Service is  web application developed in Java, leveraging the Spring Security framework to ensure a secure and authenticated experience for users. 
 The project is designed to manage user authentication, authorization, and movie-related operations through a set of well-defined RESTful API endpoints.
 
@@ -53,7 +53,7 @@ Content-Type: application/json
 "firstname": "Qussai",
 "lastname": "Khalil",
 "email":  "qussai@mail.com",
-"password": "password",
+"password": "password"
 }
 
 ### Register User
@@ -166,7 +166,7 @@ Authorization: Bearer {{new-auth-token}}
 * Success Response:
   Code: 200
 
-### Delete a new movie
+### Delete a movie
 * URL Params
   Delete http://localhost:8080/api/v1/movies/{id}
 * Headers
